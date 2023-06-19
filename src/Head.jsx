@@ -2,7 +2,7 @@ import React from 'react'
 
 const Head = () => {
   return (
-    <section className = "h-[80vh]  flex flex-col justify-center gap-4 items-center">
+    <section className = " pt-[4rem]  flex flex-col justify-center gap-4 items-center">
     <h1 className=" head_text text-white text-center">
         Discover Amazing Movies {" "}
         <br className="max-md:hidden *" />
