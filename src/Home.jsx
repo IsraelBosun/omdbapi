@@ -18,8 +18,8 @@ const Home = () => {
 
 
   // const searchApi = `http://www.omdbapi.com/?s=${encodeURIComponent(search)}&apiKey=${import.meta.env.VITE_OMDB_API_KEY}`;
-  const searchApi = `http://www.omdbapi.com/?s=${encodeURIComponent(search)}&apikey=5fd3c605`;
-  const detailApi = `http://www.omdbapi.com/?i=`;
+  const searchApi = `https://www.omdbapi.com/?s=${encodeURIComponent(search)}&apikey=5fd3c605`;
+  const detailApi = `https://www.omdbapi.com/?i=`;
 
   const { loading, error, data } = UseFetch(searchApi);
 
@@ -82,7 +82,7 @@ const Home = () => {
       {loading ? (
         <ImSpinner2 className="mx-auto animate-spin text-violet-700 text-4xl mt-[200px]" />
       ) : error ? (
-        <div>Error</div>
+        <div className="mx-auto  text-violet-700 text-3xl mt-[200px]">Error</div>
       ) : (
         <div className="mt-9 grid sm:grid-cols-2 md:grid-cols-3 gap-12">
           {filtered.map((movie) => (
