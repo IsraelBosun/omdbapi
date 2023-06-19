@@ -1,7 +1,7 @@
-![omdb](https://github.com/IsraelBosun/omdbapi/assets/110021253/0a663692-1164-4bd0-a66d-cf19b2b1b610)
+![oomdb](https://github.com/IsraelBosun/omdbapi/assets/110021253/46e7c5b0-bf6b-4ef8-8bd8-49409b96c1c6)
 
  
- <h1>Project Title</h1>
+ <h1>About Project</h1>
 
 <p>This project is a movie search application built with Vite and React. It utilizes the OMDB API to access movie details and displays them on the screen.</p>
 
@@ -10,12 +10,12 @@
 <ol>
   <li>Clone the repository:</li>
 </ol>
-<pre><code class="language-shell">git clone https://github.com/your-username/project-name.git</code></pre>
+<pre><code class="language-shell">git clone https://github.com/IsraelBosun/omdbapi.git</code></pre>
 
 <ol start="2">
   <li>Navigate to the project directory:</li>
 </ol>
-<pre><code class="language-shell">cd project-name</code></pre>
+<pre><code class="language-shell">cd omdbapi</code></pre>
 
 <ol start="3">
   <li>Install dependencies:</li>
@@ -46,9 +46,10 @@
   <li>Vite - Fast development build tool</li>
   <li>React - JavaScript library for building user interfaces</li>
   <li>OMDB API - Open Movie Database API for accessing movie details</li>
+ <li>Tailwind CSS - A CSS framework I find personally efficient at coding </li>
 </ul>
 
-<h2>License</h2>
+<h2>View the deployed app here</h2>
 
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+<p>This app was deployed using Vercel, click <a href="https://movieapp-one-eta.vercel.app/">here</a></p>
 
