@@ -14,7 +14,7 @@ const Home = () => {
 
 
 
-  const searchApi = `http://www.omdbapi.com/?s=${encodeURIComponent(search)}&apiKey=${import.meta.env.VITE_OMDB_API_KEY}`;
+  const searchApi = `https://www.omdbapi.com/?s=${encodeURIComponent(search)}&apiKey=${import.meta.env.VITE_OMDB_API_KEY}`;
   const detailApi = `https://www.omdbapi.com/?i=`;
 
   const { loading, error, data } = UseFetch(searchApi);
